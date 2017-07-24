@@ -2,7 +2,7 @@
 //  firebaseExampleUITests.swift
 //  firebaseExampleUITests
 //
-//  Created by 河瀬悠 on 2017/07/24.
+//  Created by nakadoribooks on 2017/07/24.
 //  Copyright © 2017年 nakadoribooks. All rights reserved.
 //
 

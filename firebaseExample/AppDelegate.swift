@@ -2,20 +2,21 @@
 //  AppDelegate.swift
 //  firebaseExample
 //
-//  Created by 河瀬悠 on 2017/07/24.
+//  Created by nakadoribooks on 2017/07/24.
 //  Copyright © 2017年 nakadoribooks. All rights reserved.
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseConfiguration.shared.setLoggerLevel(.min)
+        FirebaseApp.configure()
         return true
     }
 
